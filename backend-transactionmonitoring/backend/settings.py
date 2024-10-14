@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-y_(yxg0+g4%596i&bq0_%rf4hxs^#t-6!4!drhpdnaauu41p)h
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+ALLOWED_HOSTS = ['https://transactionmonitoring-255574993735.asia-south1.run.app/']
 ALLOWED_HOSTS = []
 
 
