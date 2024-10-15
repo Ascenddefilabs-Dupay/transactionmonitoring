@@ -1,0 +1,11 @@
+FROM python:3.11-slim
+
+WORKDIR /backend-transactionmonitoring
+
+COPY requirements.txt /backend-transactionmonitoring/
+RUN pip3 install -r /backend-transactionmonitoring/requirements.txt
+
+COPY . .
+
+
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8013"]
