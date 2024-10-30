@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'transactionmonitoring',
+    'fiat_transactionhistory',
     'rest_framework',
     'corsheaders',
     'cloudinary',
