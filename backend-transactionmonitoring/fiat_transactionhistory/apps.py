@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class TransactionmonitoringConfig(AppConfig):
+class FiatTransactionhistoryConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'transactionmonitoring'
+    name = 'fiat_transactionhistory'

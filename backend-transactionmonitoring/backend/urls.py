@@ -22,5 +22,5 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('transactionmonitoringapi/',include('transactionmonitoring.urls')),
+    path('fiat_transactionhistoryapi/',include('fiat_transactionhistory.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
